@@ -10,7 +10,6 @@
     "require": {
         "magento/product-community-edition": "2.2.2",
         "composer/composer": "@alpha",
-        "mageplaza/magento-2-spanish-language-pack": "dev-master",
         "magento/module-bundle-sample-data": "100.2.*",
         "magento/module-customer-sample-data": "100.2.*",
         "magento/module-catalog-sample-data": "100.2.*",
@@ -75,6 +74,10 @@
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mug-ar/Magento2-language-es_ar.git"
         }
     ],
     "extra": {

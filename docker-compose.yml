@@ -1,0 +1,21 @@
+version: '3'
+services:
+  redis_cache:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+  redis_sessions:
+      image: "redis:alpine"
+      ports:
+        - "6380:6379"
+  db:
+    image: "mysql:5"
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "3306:3306"
+  elasticsearch:
+    image: "elasticsearch:5"
+    ports:
+      - "9200:9200"
