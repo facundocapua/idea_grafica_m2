@@ -1,0 +1,16 @@
+{
+  "name": "ideagrafica/language_es_ar",
+  "description": "Spanish (español) Magento2 Language Pack (es_AR)",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "magento/framework": "~100.0"
+  },
+  "type": "magento2-language",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
